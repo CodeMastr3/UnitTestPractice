@@ -37,74 +37,73 @@ TEST(PracticeTest, simple_sortDescending)
 	int one(1);
 	int two(2);
 	int three(3);
-    bool actual = true;
+    bool first;
+	bool second;
+	bool third;
+	bool fourth;
+	bool fifth;
+	bool sixth;
 
 	obj.sortDescending(one, two, three);
 	if(one < two && two < three) {
-		actual = true;
+		first = true;
 	} else {
-		actual = false;
-		std::cout << "Assertion 1 failed\n";
+		first = false;
 	}
-	ASSERT_TRUE(actual);
+	ASSERT_TRUE(first);
 	one = 1;
 	two = 3;
 	three = 2;
 
 	obj.sortDescending(one, two, three);
 	if(one < two && two < three) {
-		actual = true;
+		second = true;
 	} else {
-		actual = false;
-		std::cout << "Assertion 2 failed\n";
+		second = false;
 	}
-	ASSERT_TRUE(actual);
+	ASSERT_TRUE(second);
 	one = 2;
 	two = 1;
 	three = 3;
 
 	obj.sortDescending(one, two, three);
 	if(one < two && two < three) {
-		actual = true;
+		third = true;
 	} else {
-		actual = false;
-		std::cout << "Assertion 3 failed\n";
+		third = false;
 	}
-	ASSERT_TRUE(actual);
+	ASSERT_TRUE(third);
 	one = 2;
 	two = 3;
 	three = 1;
 
 	obj.sortDescending(one, two, three);
 	if(one < two && two < three) {
-		actual = true;
+		fourth = true;
 	} else {
-		actual = false;
-		std::cout << "Assertion 4 failed\n";
+		fourth = false;
 	}
-	ASSERT_TRUE(actual);
+	ASSERT_TRUE(fourth);
 	one = 3;
 	two = 1;
 	three = 2;
 
 	obj.sortDescending(one, two, three);
 	if(one < two && two < three) {
-		actual = true;
+		fifth = true;
 	} else {
-		actual = false;
-		std::cout << "Assertion 5 failed\n";
+		fifth = false;
 	}
-	ASSERT_TRUE(actual);
+	ASSERT_TRUE(fifth);
 	one = 3;
 	two = 2;
 	three = 1;
 
 	obj.sortDescending(one, two, three);
 	if(one < two && two < three) {
-		actual = true;
+		sixth = true;
 	} else {
-		actual = false;
-		std::cout << "Assertion 6 failed\n";
+		sixth = false;
 	}
-	ASSERT_TRUE(actual);
+	ASSERT_TRUE(sixth);
 }

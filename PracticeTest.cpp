@@ -44,7 +44,7 @@ TEST(PracticeTest, simple_sortDescending)
 		actual = true;
 	} else {
 		actual = false;
-		cout << "Assertion 1 failed\n";
+		std::cout << "Assertion 1 failed\n";
 	}
 	ASSERT_TRUE(actual);
 	one = 1;
@@ -56,7 +56,7 @@ TEST(PracticeTest, simple_sortDescending)
 		actual = true;
 	} else {
 		actual = false;
-		cout << "Assertion 2 failed\n";
+		std::cout << "Assertion 2 failed\n";
 	}
 	ASSERT_TRUE(actual);
 	one = 2;
@@ -68,7 +68,7 @@ TEST(PracticeTest, simple_sortDescending)
 		actual = true;
 	} else {
 		actual = false;
-		cout << "Assertion 3 failed\n";
+		std::cout << "Assertion 3 failed\n";
 	}
 	ASSERT_TRUE(actual);
 	one = 2;
@@ -80,7 +80,7 @@ TEST(PracticeTest, simple_sortDescending)
 		actual = true;
 	} else {
 		actual = false;
-		cout << "Assertion 4 failed\n";
+		std::cout << "Assertion 4 failed\n";
 	}
 	ASSERT_TRUE(actual);
 	one = 3;
@@ -92,7 +92,7 @@ TEST(PracticeTest, simple_sortDescending)
 		actual = true;
 	} else {
 		actual = false;
-		cout << "Assertion 5 failed\n";
+		std::cout << "Assertion 5 failed\n";
 	}
 	ASSERT_TRUE(actual);
 	one = 3;
@@ -104,7 +104,7 @@ TEST(PracticeTest, simple_sortDescending)
 		actual = true;
 	} else {
 		actual = false;
-		cout << "Assertion 6 failed\n";
+		std::cout << "Assertion 6 failed\n";
 	}
 	ASSERT_TRUE(actual);
 }

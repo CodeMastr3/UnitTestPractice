@@ -45,7 +45,7 @@ TEST(PracticeTest, simple_sortDescending)
 	bool sixth;
 
 	obj.sortDescending(one, two, three);
-	if(one < two && two < three) {
+	if(one > two && two > three) {
 		first = true;
 	} else {
 		first = false;
@@ -56,7 +56,7 @@ TEST(PracticeTest, simple_sortDescending)
 	three = 2;
 
 	obj.sortDescending(one, two, three);
-	if(one < two && two < three) {
+	if(one > two && two > three) {
 		second = true;
 	} else {
 		second = false;
@@ -67,7 +67,7 @@ TEST(PracticeTest, simple_sortDescending)
 	three = 3;
 
 	obj.sortDescending(one, two, three);
-	if(one < two && two < three) {
+	if(one > two && two > three) {
 		third = true;
 	} else {
 		third = false;
@@ -78,7 +78,7 @@ TEST(PracticeTest, simple_sortDescending)
 	three = 1;
 
 	obj.sortDescending(one, two, three);
-	if(one < two && two < three) {
+	if(one > two && two > three) {
 		fourth = true;
 	} else {
 		fourth = false;
@@ -89,7 +89,7 @@ TEST(PracticeTest, simple_sortDescending)
 	three = 2;
 
 	obj.sortDescending(one, two, three);
-	if(one < two && two < three) {
+	if(one > two && two > three) {
 		fifth = true;
 	} else {
 		fifth = false;
@@ -100,7 +100,7 @@ TEST(PracticeTest, simple_sortDescending)
 	three = 1;
 
 	obj.sortDescending(one, two, three);
-	if(one < two && two < three) {
+	if(one > two && two > three) {
 		sixth = true;
 	} else {
 		sixth = false;

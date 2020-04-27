@@ -31,7 +31,7 @@ TEST(PracticeTest, is_simple_palindrome)
 	ASSERT_TRUE(actual);
 }
 
-TEST(PracticeTest, sortDescending)
+TEST(PracticeTest, simple_sortDescending)
 {
     Practice obj;
 	int one(1);
@@ -44,6 +44,7 @@ TEST(PracticeTest, sortDescending)
 		actual = true;
 	} else {
 		actual = false;
+		cout << "Assertion 1 failed\n";
 	}
 	ASSERT_TRUE(actual);
 	one = 1;
@@ -55,6 +56,7 @@ TEST(PracticeTest, sortDescending)
 		actual = true;
 	} else {
 		actual = false;
+		cout << "Assertion 2 failed\n";
 	}
 	ASSERT_TRUE(actual);
 	one = 2;
@@ -66,6 +68,7 @@ TEST(PracticeTest, sortDescending)
 		actual = true;
 	} else {
 		actual = false;
+		cout << "Assertion 3 failed\n";
 	}
 	ASSERT_TRUE(actual);
 	one = 2;
@@ -77,6 +80,7 @@ TEST(PracticeTest, sortDescending)
 		actual = true;
 	} else {
 		actual = false;
+		cout << "Assertion 4 failed\n";
 	}
 	ASSERT_TRUE(actual);
 	one = 3;
@@ -88,6 +92,7 @@ TEST(PracticeTest, sortDescending)
 		actual = true;
 	} else {
 		actual = false;
+		cout << "Assertion 5 failed\n";
 	}
 	ASSERT_TRUE(actual);
 	one = 3;
@@ -99,6 +104,7 @@ TEST(PracticeTest, sortDescending)
 		actual = true;
 	} else {
 		actual = false;
+		cout << "Assertion 6 failed\n";
 	}
 	ASSERT_TRUE(actual);
 }

@@ -42,7 +42,7 @@ TEST(PracticeTest, sortDescending)
 	obj.sortDescending(one, two, three);
 	if(one < two && two < three) {
 		actual = true;
-	else {
+	} else {
 		actual = false;
 	}
 	ASSERT_TRUE(actual);
@@ -53,7 +53,7 @@ TEST(PracticeTest, sortDescending)
 	obj.sortDescending(one, two, three);
 	if(one < two && two < three) {
 		actual = true;
-	else {
+	} else {
 		actual = false;
 	}
 	ASSERT_TRUE(actual);
@@ -64,7 +64,7 @@ TEST(PracticeTest, sortDescending)
 	obj.sortDescending(one, two, three);
 	if(one < two && two < three) {
 		actual = true;
-	else {
+	} else {
 		actual = false;
 	}
 	ASSERT_TRUE(actual);
@@ -75,7 +75,7 @@ TEST(PracticeTest, sortDescending)
 	obj.sortDescending(one, two, three);
 	if(one < two && two < three) {
 		actual = true;
-	else {
+	} else {
 		actual = false;
 	}
 	ASSERT_TRUE(actual);
@@ -86,7 +86,7 @@ TEST(PracticeTest, sortDescending)
 	obj.sortDescending(one, two, three);
 	if(one < two && two < three) {
 		actual = true;
-	else {
+	} else {
 		actual = false;
 	}
 	ASSERT_TRUE(actual);
@@ -97,7 +97,7 @@ TEST(PracticeTest, sortDescending)
 	obj.sortDescending(one, two, three);
 	if(one < two && two < three) {
 		actual = true;
-	else {
+	} else {
 		actual = false;
 	}
 	ASSERT_TRUE(actual);

@@ -29,6 +29,8 @@ TEST(PracticeTest, is_simple_palindrome)
 	ASSERT_TRUE(actual);
 	actual = obj.isPalindrome("aa aa");
 	ASSERT_TRUE(actual);
+	actual = obj.isPalindrome("ab ab");
+	ASSERT_FALSE(actual);
 }
 
 TEST(PracticeTest, simple_sortDescending)

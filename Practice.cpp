@@ -7,6 +7,9 @@ using std::string;
 // descending order from greatest (first) to least (third)
 void Practice::sortDescending(int & first, int & second, int & third)
 {
+  if( first >= second && second >= third) {
+	  return;
+  }
   if( first < second )
   {
     int temp = first;
